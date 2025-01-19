@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import AttendanceForm from '../Layout/AttendanceForm';
 
 const EmployeeComp = ({ loggedInEmail }) => {
   const [employee, setEmployee] = useState(null);
@@ -51,6 +52,11 @@ const EmployeeComp = ({ loggedInEmail }) => {
       ) : (
         <p>Loading employee details...</p>
       )}
+
+      <AttendanceForm/>
+
+
+      
     </div>
   );
 };

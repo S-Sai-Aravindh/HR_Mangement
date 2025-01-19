@@ -76,7 +76,7 @@ const RegisterForm = () => {
             </div>
             <button type="submit">Register</button>
         </form>
-        <a href='/login'>Login</a>
+        <a href='/'>Login</a>
         </div>
     );
 };
