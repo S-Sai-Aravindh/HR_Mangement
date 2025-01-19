@@ -1,0 +1,83 @@
+/* Loginstyle.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh;
+    margin: 0; */
+}
+
+
+/* Login Form Container */
+.login-container {
+    margin-top: 10%;
+    margin-left: 35%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Form Heading */
+.login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Fields */
+.login-container input {
+    width: 350px;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.login-container input:focus {
+    border-color: #4c90e1;
+}
+
+/* Submit Button */
+.login-container button {
+    width: 380px;
+    padding: 12px;
+    background-color: #4c90e1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #3578d3;
+}
+
+/* Register Link */
+.login-container a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 23px;
+    color: #4c90e1;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+.RegisterName{
+    font-size: 23px;
+
+}

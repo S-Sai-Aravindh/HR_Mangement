@@ -1,0 +1,333 @@
+/* NavComp.css */
+
+.nav-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .nav-header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .nav-btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-btn:hover {
+    background-color: #e0a800;
+  }
+  .nav-btn2 {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f50404;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .nav-btn2:hover {
+    background-color: #be3317;
+  }
+
+  
+  /* LoggedInUserDetails.css */
+
+.user-details-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details-header {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .user-detail {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .user-detail strong {
+    color: #000;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .loading-message {
+    color: #666;
+    font-style: italic;
+    text-align: center;
+  }
+  
+
+  /* AttendanceRecords.css */
+
+.attendance-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attendance-header {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .attendance-table th,
+  .attendance-table td {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .attendance-table th {
+    background-color: #f1f1f1;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .attendance-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .attendance-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .no-records {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+  }
+
+  
+  /* EmployeeList.css */
+
+.employee-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-header {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .employee-table th {
+    background-color: #f1f1f1;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .employee-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .loading-text,
+  .error-text,
+  .no-records-text {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    margin-top: 20px;
+  }
+
+  
+/* EmployeeComp Styles */
+
+/* Main container for the EmployeeComp component */
+.employee-containe {
+  /* padding: 20px; */
+  font-family: 'Roboto', sans-serif; /* Clean font */
+  /* min-height: 100vh;
+  box-sizing: border-box; */
+}
+
+/* Navigation container */
+.nav-container2 {
+  margin-bottom: 20px;
+}
+
+/* Header styling */
+.employee-header {
+  font-size: 2.2rem;
+  color: #343a40; /* Dark gray for contrast */
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Employee details container */
+.employee-details {
+  background-color: #ffffff; /* White background for content */
+  padding: 25px;
+  border: 1px solid #dee2e6; /* Light border for structure */
+  border-radius: 8px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  line-height: 1.6;
+}
+
+/* Individual employee detail */
+.employee-detail {
+  font-size: 1rem;
+  color: #495057; /* Neutral text color */
+  margin: 12px 0;
+}
+
+.employee-detail strong {
+  color: #212529; /* Darker text for labels */
+}
+
+/* Loading text styling */
+.loading-text {
+  color: #6c757d; /* Muted text color */
+  font-size: 1rem;
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* Attendance form container */
+.attendance-form-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: 20px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+
+.attendance-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-form .form-group {
+  margin-bottom: 15px;
+}
+
+.attendance-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.attendance-form input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.attendance-form p {
+  font-size: 14px;
+  color: #555;
+}
+
+.attendance-form .submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.attendance-form .submit-button:hover {
+  background-color: #0056b3;
+}
+
+.attendance-form .shortfall-result {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #d9534f;
+}

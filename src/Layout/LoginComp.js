@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import '../Styles/Loginstyle.css'
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -34,6 +35,7 @@ const Login = () => {
                 alert('Employee login successful!');
                 console.log("EmpId:", empId);
                 navigate(`/employee/${empId}`); // Redirect to employee page with the empId
+                // navigate(`/MainDashboard`); // Redirect to employee page with the empId
             } else {
                 alert('Login failed. Could not retrieve employee ID.');
             }
@@ -45,7 +47,7 @@ const Login = () => {
     };
     
     return (
-        <div>
+        <div className="login-container">
             <form onSubmit={handleLogin}>
                 <h2>Login</h2>
                 <input
@@ -64,9 +66,10 @@ const Login = () => {
                 />
                 <button type="submit">Login</button>
             </form>
-            <a href="/register">Register</a>
+            <p className='RegisterName'>Create an Account <a href="/register">Register</a></p>
         </div>
     );
+    
 };
 
 export default Login;
